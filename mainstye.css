@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav{
+    padding: 1rem;
+    background-color: rgb(255, 182, 130);
+}   /* พื้นหลัง */
+
+.nav-head{
+    display: flex;
+    justify-content: space-between;
+} /* จัดตำแหน่ง เมนู */
+
+.Logo a{
+    font-size: 3.5rem;
+    color: #00ff2a;
+    text-decoration: none;
+} /* Logo */
+
+.menu{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}   /* Display */
+
+.menu li{
+    margin:  2rem;
+}   /* ระยะห่าง */
+
+.menu li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}   /* สี font ของหน้าหลัก ล็อคอิน สมัครรหัส เกี่ยวกับเรา*/
+
+
+.maincontent{
+    background-color: rgb(255, 216, 159);
+}   /* กำหนดสีพื้นหลัง */
+.maincontent-con{
+    display: flex;
+}   /* กำหนดตำแหน่งรูปภาพ */
+
+.maincontent-info
+{
+    width: 100%;
+    padding: 2rem;
+}   /* กำหนดระยะขอบใน*/
+
+.maincontent-img img {
+    width: 400px;
+    height: 300px;
+    padding: 1rem;
+}   /* ขนาดรูปภาพ */
+
+.maincontent-info h3{
+    font-size: 30px;
+    color: #a83636;
+}
+
+.maincontent-info p{
+    margin: 2rem 0;
+}
+
+.maincontent-info .maincontent-btn{
+    background-color: rgb(209, 160, 255);
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.content-con{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+.content-title{
+    margin: 2rem 0;
+}
+
+.content-item h4{
+    margin-top: 1rem;
+}
+
+.content-item p{
+    margin: 2rem 0;
+}
+
+.content-item a{
+    display: inline-block;
+    background-color: rgb(205, 152, 255);
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+}
+
+.content-item img {
+    width: 200px;
+    height: 200px;
+    padding: 1rem;
+}   /* ขนาดรูปภาพ */
+
+.footer-top{
+    margin-top: 5rem;
+    padding: 3rem;
+    background-color: #8f8f8f;
+    color: #000000;
+}
+
+.footer-top-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30rem;
+}
+
+.footertop-item{
+    margin-bottom: 1rem;
+}
+
+.footer-buttom{
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    text-align: center;
+}
+
+.footertop-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.footertop-item a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.footertop-item i {
+    font-size: 20px;
+    margin-right: 10px;
+}

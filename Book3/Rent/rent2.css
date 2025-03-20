@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e9e8cf;
+}
+
+.content-btn {
+    display: inline-block;
+    background-color: #8e44ad;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.rent2 img {
+    width: 500px;
+    max-width: 400px;
+    height: auto;
+    padding: 1rem;
+}
+
+.content-btn:hover {
+    background-color: #8e44ad;
+}
+
+.content-btn:hover a{
+    display: inline-block;
+    background-color: rgb(205, 152, 255);
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+}
+
+.rent2 {
+    margin: 2rem;
+}
+
+.rent2 a{
+    margin: 2rem;
+    font-size: 30px;
+}
+
+.rent2 h4{
+    margin: 2rem;
+    font-size: 25px;
+}
+
+.rent2 p{
+    margin: 2rem;
+    font-size: 25px;
+}
